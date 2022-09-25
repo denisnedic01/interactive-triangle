@@ -1,0 +1,44 @@
+<head>
+	<script src="assignment-1.js"></script>
+	<link rel="stylesheet" href="assignment1.css">
+</head>
+<body>
+	<div class="shape one">
+    <button class="button button1"onclick="increment()">+</button>
+    <button class="button button7"onclick="decrement()">-</button>
+    <h1 id = "display1">0
+      </h1>    
+    </div>
+	<div class="shape two">
+    <button class="button button2"onclick="increment2()">+</button>
+    <button class="button button8"onclick="decrement2()">-</button>
+        <h1 id = "display2">0 
+      </h1>
+    </div>
+	<div class="shape three">
+    <button class="button button3"onclick="increment3()">+</button>
+    <button class="button button9"onclick="decrement3()">-</button>
+    <h1 id = "display3">0 
+      </h1>
+    </div>
+  <div class="shape four">
+    <button class="button button4"onclick="increment4()">+</button>
+    <button class="button button10"onclick="decrement4()">-</button>
+     <h1 id = "display4">0 
+      </h1>
+    </div>
+  <div class="shape five">
+    <button class="button button5"onclick="increment5()">+</button>
+    <button class="button button11"onclick="decrement5()">-</button>
+     <h1 id = "display5">0 
+      </h1>
+    </div>
+  <div class="shape six">
+    <button class="button button6"onclick="increment6()">+</button>
+    <button class="button button12"onclick="decrement6()">-</button>
+     <h1 id = "display6">0 
+      </h1>
+    </div>
+    <input id="today" type="date">
+	<label id = "food" type="text" > My Food Pyramid
+</body>
